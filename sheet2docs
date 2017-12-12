@@ -6,7 +6,7 @@ import re
 import argparse
 
 parser = argparse.ArgumentParser(description='Convert a CSV of form responses into individual narrative documents.')
-parser.add_argument('filename', nargs=1, help='the filename of the CSV to convert')
+parser.add_argument('filename', help='the filename of the CSV to convert')
 parser.add_argument('--title', nargs=1, help='the field, if any, to use for the document title')
 
 def build_content(row, title_field):
