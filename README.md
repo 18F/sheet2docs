@@ -1,5 +1,17 @@
 # sheet2docs
 
+Convert a CSV of form responses into individual narrative documents.
+
+## Usage
+
+1. Download `sheet2docs`.
+
+1. Download your CSV.
+
+```
+./sheet2docs your-csv.csv
+```
+
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
